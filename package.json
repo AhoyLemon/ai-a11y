@@ -1,7 +1,7 @@
 {
-  "name": "new-talk",
+  "name": "ai-a11y",
   "version": "1.0.0",
-  "description": "",
+  "description": "A machine can prove an accessibility failure. It can never prove a pass.",
   "type": "module",
   "license": "CC-BY-4.0",
   "scripts": {
