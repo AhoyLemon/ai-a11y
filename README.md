@@ -1,8 +1,25 @@
-# Lemon's Talk Template
+# Can AI Pass Your Accessibility Audit? Yes. Also No.
 
 [![RevealJS](https://img.shields.io/badge/reveal.js-000?style=for-the-badge&labelColor=F2E142&logo=reveal.js&logoColor=111&color=222)](https://revealjs.com/)
 [![Pug](https://img.shields.io/badge/Pug-000?style=for-the-badge&labelColor=A86454&logo=pug&logoColor=white&color=222)](https://pugjs.org/)
 [![Sass](https://img.shields.io/badge/Sass-000?style=for-the-badge&labelColor=CD6799&logo=sass&logoColor=white&color=222)](https://sass-lang.com/)
+
+## The talk
+
+You've already had this argument. Someone dropped an AI accessibility scanner's report into Slack and said "See? we're basically done." and somebody else in the room aged five years in real time. Nobody misread the findings. They misread how final they were.
+
+Good news first: some of this is easier than you think. Claude and Codex know the WCAG spec by heart. They know to scour for missing labels, busted focus states, and contrast that never should have shipped. That doesn't replace you. It just narrows down where you're actually needed. That's the part that never actually finishes: Accessibility isn't a state you reach and walk away from, it's a habit of making things a little better than you found them, forever.
+
+In this high-energy session, Lemon walks through the actual system he built to put that split into practice, one that hands you a clean verdict on every accessibility check: pass, fail, or needs a human to look. That's the actual bar, not a marketing one. You'll leave with an actual workflow, not just the philosophy behind it.
+
+| Event | When | Where |
+|---|---|---|
+| [Build Stuff](https://buildstuff.events/) | Wed 2 Dec 2026, 12:15 | Vilnius, room Alpha |
+| [NDC London](https://ndclondon.com/) | Wed 27 Jan 2027, 15:00 | Queen Elizabeth II Centre, Room 1 |
+
+The deck lives at [ahoylemon.github.io/ai-a11y](https://ahoylemon.github.io/ai-a11y/). The planning docs are in [`docs/`](docs/), starting with [`docs/TIMELINE.md`](docs/TIMELINE.md).
+
+## About this repo
 
 A [reveal.js](https://revealjs.com/) presentation template with Pug, Sass, and modern build tools. Every deck starts on the Lemon deck system: a 1280×720 canvas, Syne, Yrsa and Share Tech Mono, statements hung high and flush left, and one dissolve between slides. Retune it per talk from `scss/talk.scss`.
 

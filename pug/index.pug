@@ -13,11 +13,24 @@ html(lang="en")
         //- Video Screens
         include sections/shared/_intros.pug
 
+        //- Cold open: the intro gets interrupted
+        include sections/talk/_cold-open.pug
+
         //- Personal Intro
         include sections/shared/_hello.pug
 
-        //- Example Slides (replace with your own slides)
-        include examples/_example-slides.pug
+        //- The talk, in run-of-show order (docs/TIMELINE.md)
+        include sections/talk/_the-question.pug
+        include sections/talk/_yes.pug
+        include sections/talk/_also-no-ladder.pug
+        include sections/talk/_also-no-agreeable.pug
+        include sections/talk/_also-no-marketing.pug
+        include sections/talk/_verdicts.pug
+        include sections/talk/_homework.pug
+        include sections/talk/_floor.pug
+        include sections/talk/_ratchet.pug
+        include sections/talk/_habit.pug
+        include sections/talk/_bookend.pug
 
         //- HMU
         include sections/shared/_hit-me-up.pug
